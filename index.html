@@ -6,18 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Word Guess Game</title>
     <link rel="stylesheet" href="assets/CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
 
 </head>
 
-<body>
-    <div class="instructionBox">
-    <H1><strong>Guess the Cartoon Show</strong></H1>
+<body style="background:url('Assets/Images/hangman.jpeg')"></body>
+    <div class="container">
+        
+    <H1><strong class="col-md-4 px-5"><a href="#" class="text-light bg-dark">Guess the Cartoon Show</a></strong></H1>
 
     <p>Use the letter keys on the keyboard to figure out the name of the cartoon!</p>
 
     </div>
 
-    <div class="mainBox">
+    <div class="container-fluid">
         
         <p><strong>Directions:</strong>  Use the letter keys on the keyboard to guess the name of a cartoon show.  Remember, some cartoons are more than one word and spaces count.  Capital and lowercase letters for some reason are read differently *\./* (still trying to figure out how to fix that.  Symbols will not be used (i.e. & = and).  Press any key to begin and have fun!</p>
 <!--this is to evenetually to get game started.  I would like this btn to remove the instructions from the viewport and let the game start-->
@@ -26,7 +29,7 @@
 
     <!--This is parent part of the process to create the dashed lines where the correct guesses go-->
 
-    <h2 id="blankTiles">_</h2>
+    <h2> <a href="#" class="text-light bg-dark" id="blankTiles">I AM BLANK TILES</a></h2>
 
 
     
@@ -44,7 +47,7 @@
      
     </div>
 
-        <script src="assets/javascript/game2.js" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="assets/javascript/game3.js" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </body>
 </html>≥
