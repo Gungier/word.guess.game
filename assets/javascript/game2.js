@@ -3,7 +3,7 @@
 // computer compares userguess to letters in computer generated word
 // displays letter either in correct space or incorrect box
 // displays # of guesses user has left
-// 
+
 
 var compList = ["Rick and Morty" , "Spongebob Squarepants" , "Adventure Time" , "Gravity Falls" , "ThunderCats" , "Phineas and Ferb" , "Regular Show" , "Avatar" , "Legend of Korra" , "Samurai Jack" , "Cowboy Bebop" , "Dexters Laboratory" , "Simpsons" , "Teen Titans" , "He Man" , "Larva"]
 var compChoose = "";            //random picked word stored here
